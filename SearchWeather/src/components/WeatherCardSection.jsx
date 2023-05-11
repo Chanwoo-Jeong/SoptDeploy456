@@ -30,7 +30,7 @@ const WeatherCardSection = () => {
   const { period, area } = useParams();
 
   const { data, isLoading, isError } = WeatherHook(period, area);
-console.log(data)
+
   const weekArr = [0, 8, 16, 23, 31];
   return (
     <Wrapper>

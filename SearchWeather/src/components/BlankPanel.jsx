@@ -8,9 +8,11 @@ const Wrapper = styled.div`
   align-items: center;
   gap: 1rem;
 
-  width: 100%;
+  width: 70rem;
+  height: 60rem;
+  margin: 0 auto;
   padding: 1rem;
- 
+
   background-color: #fff;
   border-radius: 0.8rem;
   box-shadow: 0px 0.4rem 0.8rem rgba(0, 0, 0, 0.1);
@@ -22,9 +24,9 @@ const Wrapper = styled.div`
 const BlankPanel = () => {
   return (
     <Wrapper>
-      <div>날씨를 불러올 수 없습니다 😭</div>
+       <div>날씨를 불러올 수 없습니다 😭</div>
       <div>지역(영어) 를 다시 확인해보세요!</div>
-      <div>혹은 새로고침 F5를 시도해보세요!</div>
+      <div>혹은 url확인 , 새로고침(F5)을 시도해보세요!</div>
     </Wrapper>
   );
 };
