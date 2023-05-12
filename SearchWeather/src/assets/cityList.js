@@ -42,7 +42,6 @@ export const cityList = [
   "Singapore",
   "Bangkok",
   "Hanoi",
-  "Seoul",
   "Taipei",
   "Jakarta",
   "Karachi",
